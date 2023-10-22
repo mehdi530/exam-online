@@ -1,7 +1,8 @@
 # Exam online backend project
 Coding . . .
 # whats App .. ?
-create online Four-choice exam Backend project with node.js and mysql database 
+create online Four-choice exam Backend project with nodejs and mysql database 
+Node.js® is an open-source, cross-platform JavaScript runtime environment.
 # architecture
 3Layer(Views + Controllers + Modules) + routing  + functions General
 # Features : 
