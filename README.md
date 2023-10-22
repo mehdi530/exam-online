@@ -1,4 +1,4 @@
-# Exam pnline backend project
+# Exam online backend project
 
 # sclproject
 create online Four-choice exam Backend project with node.js and mysql database 
@@ -10,7 +10,7 @@ create online Four-choice exam Backend project with node.js and mysql database
 1. create exam
 1. show exam result 
 
-
+# javaScript ( node.js )
 - [ ] JavaScript is the world's most popular programming language.
 - [ ] JavaScript is the programming language of the Web.
 - [ ] JavaScript is easy to learn.
