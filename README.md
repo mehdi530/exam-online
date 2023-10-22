@@ -7,7 +7,7 @@ create online Four-choice exam Backend project with nodejs and mysql database
 - [ ] JavaScript is the programming language of the Web.
 - [ ] JavaScript is easy to learn.
 - [ ] This tutorial will teach you JavaScript from basic to advanced.
-# architecture
+# project architecture
 3Layer(Views + Controllers + Modules) + routing  + functions General
 # Features : 
 1. user registration 
