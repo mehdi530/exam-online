@@ -59,4 +59,4 @@ const question_get_by_id = async (id) => {
 //question_get_userallQuestion_byid(1);
 //question_get_allanswer_by_id(2);
 //question_get_allanswer_by_question("question one is test ?")
-//question_get_id_by_question("question one is test ?")
+question_get_id_by_question("question one is test ?")
