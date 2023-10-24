@@ -54,6 +54,19 @@ const question_get_by_id = async (id) => {
     console.log(result[0]);
   };
 
+  const question_add_new = async (id_user,qcaption,q1,q2,q3,q4,qans) => {
+    // const temp = await user_get_by_email(email)
+  
+    // if(temp==="not found"){
+    const result = await pool.query(
+      "insert into questin (id_user,qcaption,q1,q2,q3,q4,qans) values(?,?,?,?,?,?,?)",
+      [id_user,qcaption,q1,q2,q3,q4,qans]
+    );
+    // }else{
+    // console.log("user is exist ... please goto login")
+    // }
+  };
+
  //question_get_by_id(1);
 //question_get_answer_by_id(1);
 //question_get_userallQuestion_byid(1);
