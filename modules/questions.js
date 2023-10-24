@@ -26,7 +26,7 @@ const question_get_by_id = async (id) => {
     );
 
     generalFun.print_all_array(result)   
-   
+    
 
   };
 

@@ -8,7 +8,8 @@ const exam_get_all_by_userid = async (id) => {
       "select user_id,question_ids,name,time,number,dis,type from exam where id=? ",
       [id]
     );
-    generalFun.print_all_array(result)   
+    generalFun.print_all_array(result)
+    
 
   };
 
