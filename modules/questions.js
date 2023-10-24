@@ -59,14 +59,14 @@ const question_get_by_id = async (id) => {
   
     // if(temp==="not found"){
     const result = await pool.query(
-      "insert into questin (id_user,qcaption,q1,q2,q3,q4,qans) values(?,?,?,?,?,?,?)",
+      "insert into question (id_user,qcaption,q1,q2,q3,q4,qans) values(?,?,?,?,?,?,?)",
       [id_user,qcaption,q1,q2,q3,q4,qans]
     );
     // }else{
     // console.log("user is exist ... please goto login")
     // }
   };
-
+//question_add_new('1','test insert question ?','yes','no','ok','nonee','1')
  //question_get_by_id(1);
 //question_get_answer_by_id(1);
 //question_get_userallQuestion_byid(1);
